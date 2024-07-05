@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(228, 217, 217);
+}
+.section-1{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.img-section{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+}
+.shop-button{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px;
+    background-color: rgb(8, 149, 8);
+    border-radius: 36px;
+}
+.header-1{
+    margin-top: 30px;
+    font-size:40px;
+}
+.para-1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.shop-button:hover{
+    cursor: pointer;
+    background-color: rgb(12, 197, 12);
+}
+.header-2{
+    margin-bottom: 30px;
+}
+.svg-icon{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.svg-icon-1{
+    stroke: green;
+}
+.sub-header{
+    margin-bottom: 20px;
+}
+.section-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+.sub-header-2{
+    margin-bottom: 20px;
+}
+.sub-para{
+    margin-bottom: 20px;
+}
+.sub-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.section-3{
+    display: flex;
+    background-color: rgb(33, 174, 33);
+    padding: 10px;
+    gap: 35px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.sub-header-3{
+    margin-bottom: 30px;
+}
+.sub-header-4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.chair-1{
+    width: 100%;
+    height: 100px;
+}
+.svg-flex{
+    margin-left: 20px;
+    display: flex;
+}
+.button-1{
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(8, 149, 8);
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.section-4{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.button-1:hover{
+    cursor: pointer;
+    background-color: rgb(12, 197, 12);
+}
+.chair-container{
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
